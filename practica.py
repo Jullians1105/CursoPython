@@ -486,17 +486,38 @@ carros = dict(nombre = 'Ferrari', color= 'Negro')
 
 # 2. Escribe una función que determine si un número es primo.
 
-def numpri(num):
-    primo= num/num == 0 and num/1 == 0
-    print('Es primo', primo)
-num = int(input('Digita un numero: '))
+# def numpri(num):#se define una funcion numero primo
+#     if num <= 1:#si el numero digitado mas abajo, es menor o igual a uno
+#         return False#regresa falso
+#     for i in range (2, int(num**0.5)+1):#por cada i en un rango de la raiz cuadrada del numero
+#         if num % i == 0:# se revisa que el numero sea divisible por i
+#             return False#si es divisible no es primo
+#     return True#si no tiene divisores es un numero primo
 
-numpri()
-
+# num=(int(input('Digita un numero: ')))#se pide el numero para verificar si es primo o no
+# if numpri(num):#se llama a la funcion, para que haga el calculo 
+#     print('Es un numero primo')#para saber si es un numero primo
+# else: print('Es un numero compuesto')# o es un numero compuesto
+    
+    
 #  Recursividad
 
 # 1. Escribe una función recursiva para calcular el factorial de un número.
+
+# def facto (num1):#crear funcion con un argumento
+#     if num1 == 0 or num1 == 1:# si el numero elegido es 0 o 1 da 1 el factorial
+#         return 1
+#     else:
+#         return num1 * facto(num1-1)#de lo contrario num1 * la funcion facto -1 hasta acabar 
+
+# num1 = int(input('Digita un numero: '))
+# print(facto(num1))#y dara la respuesta
+
 # 2. Crea una función recursiva que imprima los números de una lista en orden inverso.
+
+def imprimir (numero):
+    numero = [1,2,3,4,5]
+    print(imprimir(numero.reverse))
 
 #   Objetos, clases y herencias
 
