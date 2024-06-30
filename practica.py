@@ -475,16 +475,23 @@ carros = dict(nombre = 'Ferrari', color= 'Negro')
 
 #correccion de chat
 
-def recogernum2 (num1,num2):#creo la funcion y especifico que llevara
-    return num1+num2 #devuelve la suma de los dos numeros
+# def recogernum2 (num1,num2):#creo la funcion y especifico que llevara
+#     return num1+num2 #devuelve la suma de los dos numeros
 
-num1= int(input('Digita un numero: '))#los pido en las siguientes dos lineas de codigo
-num2 = int(input('Digita el segundo numero: '))
+# num1= int(input('Digita un numero: '))#los pido en las siguientes dos lineas de codigo
+# num2 = int(input('Digita el segundo numero: '))
 
-resultado= recogernum2(num1, num2)#defino resultado con los dos numeros, y lo guardo en resultado
-print(resultado)#e imprime el resultado final
+# resultado= recogernum2(num1, num2)#defino resultado con los dos numeros, y lo guardo en resultado
+# print(resultado)#e imprime el resultado final
 
 # 2. Escribe una función que determine si un número es primo.
+
+def numpri(num):
+    primo= num/num == 0 and num/1 == 0
+    print('Es primo', primo)
+num = int(input('Digita un numero: '))
+
+numpri()
 
 #  Recursividad
 
