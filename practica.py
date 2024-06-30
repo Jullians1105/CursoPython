@@ -132,7 +132,7 @@ lista5[1]= 8
 # lista6.pop()
 # print(lista6)
 #Reverse y sort
- 
+
 #1. ordena una lista de numeros en orden ascendeten y descendente
 # lista7 = [7, 7, 7, 7, 6, 5, 3, 7, 1]
 # lista7.sort()
@@ -435,22 +435,55 @@ carros = dict(nombre = 'Ferrari', color= 'Negro')
 #         x1= int(input('escribe un numero: '))#volvera a pedir un numero
 # 2. Utiliza `continue` para saltar una iteración específica en un bucle `while`.
 
-x2= 2#defino x2
+# x2= 2#defino x2
 
-while x2 < 7:# mientras que x2 sea menor que 7
-    x2 = x2+1#se sumara uno hasta llegar a 7
-    if x2 ==5:#y si x2 es igual a 5
-        continue#se lo saltara 
-    print(x2)#e imprimira los valores hasta terminar hasta el 7
+# while x2 < 7:# mientras que x2 sea menor que 7
+#     x2 = x2+1#se sumara uno hasta llegar a 7
+#     if x2 ==5:#y si x2 es igual a 5
+#         continue#se lo saltara 
+#     print(x2)#e imprimira los valores hasta terminar hasta el 7
 
 #  For
 
 # 1. Escribe un bucle `for` que imprima cada letra de una cadena.
+
+# cadena = 'Practica'
+
+# for letra in cadena: #por cada LETRA en la CADENA
+#     print(letra)#imprimir la LETRA
+
 # 2. Crea un bucle `for` que itere sobre una lista y sume sus elementos.
+
+# lista = [1,2,3,4]#la lista de los elementos que se van a sumar 
+# suma = 0#la suma iniciara en 0
+# for suma1 in lista:# por cada elemento de la LISTA, SUMA1 
+#     suma= suma+suma1#actualiza SUMA sumando cada elemento suma1 a la variable suma
+#     print(suma)#y se imprimira el resultado del bucle
 
 #  Funciones
 
 # 1. Define una función que reciba dos números y devuelva su suma.
+
+# def recogernum ():#creo la funcion 
+#     print(num1+num2)#donde la funcion imprimira la suma de los dos numeros
+
+# num1= int(input('Digita un numero: '))#que se pediran en estas dos lieneas de codigo
+# num2 = int(input('Digita el segundo numero: '))
+
+# recogernum()#y con los datos recolectados llamare a la funcion para que haga la suma
+
+
+#correccion de chat
+
+def recogernum2 (num1,num2):#creo la funcion y especifico que llevara
+    return num1+num2 #devuelve la suma de los dos numeros
+
+num1= int(input('Digita un numero: '))#los pido en las siguientes dos lineas de codigo
+num2 = int(input('Digita el segundo numero: '))
+
+resultado= recogernum2(num1, num2)#defino resultado con los dos numeros, y lo guardo en resultado
+print(resultado)#e imprime el resultado final
+
 # 2. Escribe una función que determine si un número es primo.
 
 #  Recursividad
