@@ -515,9 +515,14 @@ carros = dict(nombre = 'Ferrari', color= 'Negro')
 
 # 2. Crea una función recursiva que imprima los números de una lista en orden inverso.
 
-def imprimir (numero):
-    numero = [1,2,3,4,5]
-    print(imprimir(numero.reverse))
+def imprimir (lista):
+    if not lista:
+        return
+    print(lista[-1])
+    imprimir (lista[:-1])
+
+numeros = [1,2,3,4,5]
+imprimir(numeros)
 
 #   Objetos, clases y herencias
 
