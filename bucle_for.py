@@ -58,23 +58,46 @@
 # 7. **Contar las vocales en una cadena**:
 #    - Escribe un bucle `for` que cuente cuántas vocales hay en la cadena `'Hola, ¿cómo estás?'` y luego imprima el conteo total.
 
-cadena = 'Hola, ¿cómo estás?'
-vocales = 'aeiouáéíóúAEIOUÁÉÍÓU'
-count_vocales = 0
-for i in cadena:
-    if i in vocales: 
-        count_vocales += 1
+# cadena = 'Hola, ¿cómo estás?'
+# vocales = 'aeiouáéíóúAEIOUÁÉÍÓU'
+# count_vocales = 0
+# for i in cadena:
+#     if i in vocales: 
+#         count_vocales += 1
         
         
-print(count_vocales)
+# print(count_vocales)
 
 
 
 # 8. **Generar una lista de los primeros 10 números cuadrados**:
 #    - Escribe un bucle `for` que genere una lista de los primeros 10 números cuadrados (1, 4, 9, ... 100).
 
+# cuadrado = []#se crea una lista vacia
+# for x in range (1,11):#y se crea en un rango de numero necesarios
+#     lista = x ** 2#se eleva al cuadrado el numero
+#     cuadrado.append(lista)#y se agrega a lista
+# print(cuadrado)#para despues imprimir la lista completa hasta el rango de numeros
+
 # 9. **Encontrar el número máximo en una lista**:
 #    - Escribe un bucle `for` que encuentre el número máximo en la lista `[5, 3, 8, 6, 7, 2]` y luego imprima el número máximo.
 
+
+# lista= [ 5,3,8,6,7,2]
+# num_max = 0#defino una variable para num max
+# for i in lista:#por cada elemento de la lista
+#     if i > num_max:#si el elemento es mayor a la varaible que defini
+#         num_max = i#num max se actualiza con el valor que es mayor
+# print(num_max)#e imprime el resultado final de la actualizacion
+    
 # 10. **Filtrar los números mayores que 5 en una lista**:
-#     - Escribe un bucle `for` que recorra la lista `[3, 6, 8, 2, 9, 1, 5]` y cree una nueva lista que contenga solo los números mayores que 5.
+#     - Escribe un bucle `for` que recorra la lista `[3, 6, 8, 2, 9, 1, 5]` 
+#       y cree una nueva lista que contenga solo los números mayores que 5.
+
+
+lista = [ 3,6,8,2,9,1,5]
+lista2 = []#defino una lista vacia
+for i in lista:#por cada elemento de la lista
+    if i > 5:#si el elemento es mayor que 5
+        lista2.append(i)#se agregara ese valor en lista2
+print(lista2)#y se imprimira al final  actualizado
