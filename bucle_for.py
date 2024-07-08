@@ -7,8 +7,8 @@
 # 1. **Imprimir números del 1 al 10**:
 #    - Escribe un bucle `for` que imprima los números del 1 al 10.
 
-# for i in range(0,10):#imprime del 0 al 10 usando el rango
-#     print(i)
+for i in range(0,10):#imprime del 0 al 10 usando el rango
+    print(i)
 
 # 2. **Imprimir cada carácter de una cadena**:
 #    - Escribe un bucle `for` que imprima cada letra de la cadena `'Hola'`.

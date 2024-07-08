@@ -9,19 +9,27 @@
 # 2. **Suma de números**:
 #    Escribe un programa que pida al usuario números hasta que el usuario ingrese un número negativo. 
 # El programa debe sumar todos los números ingresados y mostrar el total al final.
-i=-1
-while i > -1 :
+# i = 0
+# suma = 0
+# while i >= 0:#mientras i sea menor que 5
+#     i = int(input('Digita un numero: '))#se pediran numeros
+#     if i > 0:#si i es mayor que 0
+#         suma += i #suma el numero
+# print(suma)
     
-    if i > -1:
-        numeros = int(input("Digita un numero: "))
-    else: 
-        break
-    suma= i + numeros
-    print(suma)    
+
 
 # ### Nivel 2: Intermedio
 # 3. **Adivina el número**:
-#    Escribe un programa que genere un número aleatorio entre 1 y 100. El programa debe permitir al usuario adivinar el número, indicando si su suposición es muy alta, muy baja o correcta. El bucle `while` debe continuar hasta que el usuario adivine correctamente.
+#    Escribe un programa que genere un número aleatorio entre 1 y 100. El programa debe permitir al usuario adivinar el número, 
+# indicando si su suposición es muy alta, muy baja o correcta. El bucle `while` debe continuar hasta que el usuario adivine correctamente.
+aleatorio = 0
+
+while aleatorio in range(0,100):
+    aleatorio = range
+    print(aleatorio)
+
+
 
 # 4. **Factorial de un número**:
 #    Escribe un programa que calcule el factorial de un número dado por el usuario utilizando un bucle `while`.
